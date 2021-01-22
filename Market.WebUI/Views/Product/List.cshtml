@@ -1,0 +1,37 @@
+﻿@model List<Product>
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Product List</h1>
+<hr />
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Delete</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td><a href="/Product/Delete/@x.Id" style="color:red"><strong>X</strong></a></td>
+                <td><a href="/Product/Update/@x.Id">@x.Name</a></td>
+                <td><a href="/Product/Update/@x.Id">@x.Price ₺</a></td>
+                <td><a href="/Product/Update/@x.Id">@x.Descriprion</a></td>
+                <td>
+                    <img src="~/img/@x.Image" width="80" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Product/Create" class="btn btn-primary" style="width:inherit;">Create Product</a>
+
+

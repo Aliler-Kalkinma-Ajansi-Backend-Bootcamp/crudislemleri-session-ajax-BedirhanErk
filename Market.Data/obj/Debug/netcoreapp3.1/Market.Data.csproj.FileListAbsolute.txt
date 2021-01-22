@@ -1,0 +1,12 @@
+C:\Users\Bedirhan\source\repos\Market\Market.Data\bin\Debug\netcoreapp3.1\Market.Data.deps.json
+C:\Users\Bedirhan\source\repos\Market\Market.Data\bin\Debug\netcoreapp3.1\Market.Data.runtimeconfig.json
+C:\Users\Bedirhan\source\repos\Market\Market.Data\bin\Debug\netcoreapp3.1\Market.Data.runtimeconfig.dev.json
+C:\Users\Bedirhan\source\repos\Market\Market.Data\bin\Debug\netcoreapp3.1\Market.Data.dll
+C:\Users\Bedirhan\source\repos\Market\Market.Data\bin\Debug\netcoreapp3.1\Market.Data.pdb
+C:\Users\Bedirhan\source\repos\Market\Market.Data\obj\Debug\netcoreapp3.1\Market.Data.csprojAssemblyReference.cache
+C:\Users\Bedirhan\source\repos\Market\Market.Data\obj\Debug\netcoreapp3.1\Market.Data.AssemblyInfoInputs.cache
+C:\Users\Bedirhan\source\repos\Market\Market.Data\obj\Debug\netcoreapp3.1\Market.Data.AssemblyInfo.cs
+C:\Users\Bedirhan\source\repos\Market\Market.Data\obj\Debug\netcoreapp3.1\Market.Data.csproj.CoreCompileInputs.cache
+C:\Users\Bedirhan\source\repos\Market\Market.Data\obj\Debug\netcoreapp3.1\Market.Data.dll
+C:\Users\Bedirhan\source\repos\Market\Market.Data\obj\Debug\netcoreapp3.1\Market.Data.pdb
+C:\Users\Bedirhan\source\repos\Market\Market.Data\obj\Debug\netcoreapp3.1\Market.Data.genruntimeconfig.cache

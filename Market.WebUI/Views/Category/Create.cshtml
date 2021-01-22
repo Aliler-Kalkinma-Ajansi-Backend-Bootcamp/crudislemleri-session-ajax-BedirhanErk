@@ -1,0 +1,35 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create Category</h1>
+<hr />
+
+@*<form method="post" asp-controller="Category" asp-action="Create">*@
+<div class="mb-3">
+    <label class="form-label">Category Name</label>
+    @Html.TextBoxFor(x=>x.Name)
+</div>
+<button type="submit" value="Create" onclick="CreateCat()" class="btn btn-primary">Create</button>
+@*</form>*@
+
+<script>
+    function CreateCat() {
+        var _name = $('#Name').val();
+        $.ajax({
+            type: "POST",
+            url: "/Category/Create",
+            data: { Name: _name },
+            dataType: "json",
+            success: function (res) {
+                alert(res);
+                console.log(error);
+            },
+            error: function (req, status, error) {
+                console.log(error);
+            }
+        });
+    }
+</script>

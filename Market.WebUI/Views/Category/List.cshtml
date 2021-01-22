@@ -1,0 +1,29 @@
+﻿@model List<Category>
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Category List</h1>
+<hr />
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Delete</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td><a href="/Category/Delete/@x.Id" style="color:red"><strong>X</strong></a></td>
+                <td><a href="/Category/Update/@x.Id">@x.Name</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Category/Create" class="btn btn-primary" style="width:inherit;">Create Category</a>
+
+
